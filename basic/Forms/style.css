@@ -1,0 +1,38 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-family: sans-serif;
+    color: rgb(48, 45, 45);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 1rem;
+    text-align: center;
+}
+
+.form-elements{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: flex-start;
+    margin: 1rem;
+}
+.field{
+    margin-top: 0.5rem;
+}
+label{
+    font-size: 1.5rem;
+}
+input, select, textarea{
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            margin: 30px 80px;
+            background: #0B2429;
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            height: 300px;
+            width: 400px;
+            position: relative;
+        }
+
+        span {
+            width: 120px;
+            height: 120px;
+            background: #dd6b4d;
+            position: absolute;
+        }
+
+        span:nth-child(1) {
+            right: 0;
+            top: 0;
+            border-radius: 50%;
+            background: #F3AC3C;
+        }
+
+        span:nth-child(2) {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50% 0 50% 50%;
+            background: #998235;
+        }
+
+        span:nth-child(3) {
+            left: 0;
+            bottom: 0;
+            border-radius: 50% 0 50% 50%;
+            background: #F3AC3C;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</body>
+
+</html>

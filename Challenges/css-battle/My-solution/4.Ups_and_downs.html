@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background: #62306D;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cont {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background: #F7EC7D;
+
+        }
+
+        .row {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .up {
+            border-radius: 0% 0% 50% 50%;
+        }
+
+        .down {
+            border-radius: 50% 50% 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='cont'>
+        <div class='square down d-center'></div>
+        <div class='row'>
+            <div class='square up d-center'></div>
+            <div class='square up d-center'></div>
+        </div>
+    </div>
+</body>
+
+</html>
